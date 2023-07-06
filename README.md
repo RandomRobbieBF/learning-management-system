@@ -1,6 +1,18 @@
 # learning-management-system
 Masteriyo - LMS for WordPress &lt;= 1.6.7 - Sensitive Information Exposure
 
+Plugin Info
+---
+
+```
+Software Type 	Plugin
+Software Slug 	learning-management-system (view on wordpress.org)
+Patched? 	Yes
+Remediation 	Update to version 1.6.8, or a newer patched version
+Affected Version 	< 1.6.8
+Patched Version 	1.6.8
+```
+
 CVS
 ---
 
@@ -17,6 +29,8 @@ Description
 ```
 The Masteriyo - LMS for WordPress plugin is vulnerable to Sensitive Information Exposure in versions up to, and including, 1.6.7 via the 'get_item' REST callback. This can allow authenticated attackers to extract sensitive data including user metadata.
 ```
+
+
 
 
 How to use
